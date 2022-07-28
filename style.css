@@ -1,0 +1,186 @@
+.navbar-container {
+    display: flex;
+    align-content: center;
+    margin: 50px;
+    align-content: center;
+}
+
+.logo {
+    padding: 10px;
+    width: 120px;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.list-item {
+    display: inline-block;
+    font-family: Orbitron, Helvetica, sans-serif;
+    color: #000000;
+    padding:10px;
+    font-size:20px;
+    margin-left: 70px;
+}
+
+.list-item:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.list {
+    align-content: space-between;
+    padding-left: 70px;
+}
+
+.button-group, .search-icon {
+    padding: 10px;
+    display: flex;
+    cursor: pointer;
+}
+
+.button-group {
+    position: absolute;
+    right: 70px;
+    align-items: center;
+}
+
+.nav-button{
+    padding: 0px 30px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    font-size: 15px;
+    font-family: Poppins, Helvetica, sans-serif;
+}
+
+.nav-button:hover {
+    transition: 0.3s;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.search-icon {
+    padding: 10px;
+    width: 20px;
+}
+
+.hero {
+    position: absolute;
+    top: 180px;
+    left: 50px;
+    width: 300px;
+}
+
+.square {
+    position: relative;
+    left: 140px;
+    top: 170px;
+    width: 250px;
+    
+}
+
+.star {
+    position: absolute;
+    top: 200px;
+    right: 100px;
+    width: 50px;
+}
+
+.star-2 {
+    position: absolute;
+    top: 540px;
+    right: 870px;
+    width: 35px;
+}
+
+.globe {
+    position: absolute;
+    top: 160px;
+    right: 550px;
+    width: 50px;
+}
+
+.hero-container-right {
+    font-family: Poppins;
+    max-width: 1000px;
+    padding: 20px;
+    position: absolute;
+    top: 200px;
+    left: 550px;
+}
+
+.hero-heading {
+    font-family: Orbitron, Helvetica, sans-serif;
+    font-size: 50px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.hero-description {
+    padding: 15px;
+    color: #a9a9a9;
+    font-size: 10px;
+    letter-spacing: 3px;
+    font-family: Orbitron, Helvetica, sans-serif;
+    justify-self: center;
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+
+.button-email {
+    padding: 0px 30px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    font-size: 15px;
+    font-family: Orbitron, Helvetica, sans-serif;
+}
+
+.button-join {
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: Orbitron, Helvetica, sans-serif;
+}
+
+.button-email:hover {
+    transition: 0.3s;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.button-join:hover {
+    transition: 0.3s;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.contact-button {
+    display: flex;
+    justify-content: center;
+}
+
+.icons {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-heading {
+    position: relative;
+    left: 335px;
+    color: #a9a9a9;
+    font-weight: 400;
+    bottom: -20px;
+}
+
+.social-icon {
+    padding: 5px;
+    width: 25px;
+}
